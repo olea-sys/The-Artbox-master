@@ -1,13 +1,13 @@
 <?php
     require_once 'oeuvres.php'; 
-    // Récupérer et vérifier l'ID'
-        $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
+    // Récupérer et vérifier l'id
+    $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
 
-        // Vérifier que l'ID est valide et présent dans le tableau
-        if ($id === null || $id === false || !isset($oeuvres[$id])) {
-             header('Location: index.php');
-            exit('Œuvre introuvable.');
-        }
+    // Vérifier que l'ID est valide et présent dans le tableau
+    if ($id === null || $id === false || !isset($oeuvres[$id])) {
+        header('Location: index.php');
+        exit('Œuvre introuvable.');
+    }
 ?>
 <!doctype html>
 <html lang="fr">
@@ -24,7 +24,7 @@
     <?php include_once('header.php'); ?>
 <main>
     <?php
-            // RécupérerAfficher l'œuvre demandée
+        // RécupérerAfficher l'œuvre demandée
         $oeuvre = $oeuvres[$id];
     ?>
     <article id="detail-oeuvre">

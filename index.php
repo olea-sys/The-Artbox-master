@@ -9,6 +9,7 @@
     <title>The ArtBox</title>
 </head>
 <body>
+    <!-- oeuvres -->
     <?php require_once 'oeuvres.php'; ?>
     <!-- header -->
     <?php include_once('header.php'); ?>
