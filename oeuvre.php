@@ -1,3 +1,6 @@
+<!doctype html>
+<html lang="fr">
+    
 <?php
     require_once 'oeuvres.php'; 
     // Récupérer et vérifier l'id
