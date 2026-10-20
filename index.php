@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
-    
-<<!-- head -->
+
+<!-- head -->
 <?php require_once 'head.php'; ?>
 
 <body>

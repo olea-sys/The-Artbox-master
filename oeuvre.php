@@ -35,7 +35,7 @@
         </div>
     </article>
 </main>
-<<!-- footer -->
+<!-- footer -->
     <?php include_once('footer.php'); ?>
 </body>
 </html>
