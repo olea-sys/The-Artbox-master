@@ -28,7 +28,7 @@
     ?>
     <article id="detail-oeuvre">
         <div id="img-oeuvre">
-            <img src="<?= htmlspecialchars($oeuvre['oeuvre'], ENT_QUOTES, 'UTF-8') ?>" alt="<?= htmlspecialchars($oeuvre['titre'], ENT_QUOTES, 'UTF-8') ?>">
+            <img src="<?= htmlspecialchars($oeuvre['image'], ENT_QUOTES, 'UTF-8') ?>" alt="<?= htmlspecialchars($oeuvre['titre'], ENT_QUOTES, 'UTF-8') ?>">
         </div>
         <div id="contenu-oeuvre">
             <h1><?= htmlspecialchars($oeuvre['titre'], ENT_QUOTES, 'UTF-8') ?></h1>
